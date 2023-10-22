@@ -15,7 +15,7 @@ namespace ConsoleApp3
             protected string accountname = "lord yousefkii";
             protected int passo = 12345;
             public int currentbalance = 5000;
-            public int asvingbalance = 10000;
+            public int asvingbalance = 20000;
 
         }
         class withdraw : father
