@@ -24,15 +24,15 @@ namespace ConsoleApp3
             {
                 if (currentbalance > num || asvingbalance > num && accountnumber == bankaccount && name == accountname && pass == passo)
                 {
-                    Console.WriteLine("choose 1 if you want to withdraw from your current account and type 2 if want to withdraw from your saving account");
+                    Console.WriteLine("write w if you want to withdraw from your current account and type d if want to withdraw from your saving account");
                     int g = int.Parse(Console.ReadLine());
                     switch (g)
                     {
-                        case 1:
+                        case w:
                             currentbalance -=  num;
                             Console.WriteLine("your current balance = " + currentbalance);
                             break;
-                        case 2:
+                        case d:
                             asvingbalance -=  num;
                             Console.WriteLine("your saving balance = " + asvingbalance);
                             break;
